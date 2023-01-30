@@ -9,9 +9,15 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-    </main>
-	<script src="index.js"></script>
+    <script>
+	const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+	const d = new Date();
+	let day = weekday[d.getDay()];
+	if(day == "Monday")
+	{
+		window.location.href = "https://sewex-pages.notion.site/11-93ed2ace75e0401ab314d6c4b5337d0e";	
+	}
+    </script>
   </body>
 </html>
